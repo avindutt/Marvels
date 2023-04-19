@@ -4,6 +4,7 @@ const private_key = '217fc0f4c9fb0236efac1c094e7f0f93d2ca3a7f';
 const ts = Date.now().toString();
 const hash = CryptoJS.MD5(ts + private_key + public_key).toString();
 
+// getting the id from params from the address bar to pass it to the api call when fetching the data
 const id = new URLSearchParams(window.location.search).get("id");
 
 async function superheroDetails() {
@@ -15,6 +16,8 @@ async function superheroDetails() {
 }
 
 superheroDetails();
+
+// simply rendered the fetched data on the page by adding some styles and html
 
 const nameElement = document.querySelector("#name");
 const imageElement = document.getElementById("image");
