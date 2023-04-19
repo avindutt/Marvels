@@ -1,0 +1,89 @@
+#container {
+    height: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/e/8/e/114223.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container-logo img{
+    height: 5rem;
+    width: 10rem;
+}
+
+#fav a{
+    position: relative;
+    top: 10.8px;
+    text-decoration: none;
+    font-size: larger;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    font-family: fantasy;
+}
+
+#fav {
+    height: 50px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(237, 13, 21);
+}
+
+#search-marvel input{
+    width: 30rem;
+}
+
+#search-marvel button{
+    width: 10rem;
+}
+
+#search-marvel {
+    margin-top: 15px;
+}
+
+#results {
+    position: absolute;
+    width: 35rem;
+    top: 6rem;
+    left: 35%;
+}
+
+#results h3 {
+    position: relative;
+    bottom: 2.7rem;
+    left: 3.5rem;
+}
+
+#results img{
+    height: 53.7px;
+    width: 50px;
+    display: inline-block;
+}
+
+#results li {
+    background-color: white;
+    opacity: 0.6;
+    height: 53px;
+    list-style: none;
+
+}
+
+#results li:hover {
+    background-color: rgb(22, 22, 124);
+    opacity: 1;
+    color: white;
+    transition: all 0.5s;
+}
+
+#results button {
+    background-color: transparent;
+    position: relative;
+    top: -2.5rem;
+    left: 30rem;
+    border: none;
+    height: 20px;
+    width: 38px;
+}
+
+#results button i:hover {
+    color: rgb(255, 17, 0);
+}

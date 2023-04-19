@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient( to right, rgb(12, 75, 18), rgba(222, 219, 11, 0.889), rgb(41, 39, 39));
+    color: white;
+}
+
+#container-logo img{
+    height: 5rem;
+    width: 10rem;
+}
+
+#container-logo{
+    position: relative;
+    left: 5px;
+}
+
+h1 {
+    background-color: rgba(189, 0, 0, 0.932);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#description {
+    font-family: sans-serif;
+    width: auto;
+    font-weight: 500;
+    padding: 20px;
+    font-size: x-large;
+    position: absolute;
+    left: 37rem;
+    top: 8.5rem;
+}
+
+#description h2 {
+    font-family: monospace;
+    background: linear-gradient(to right, #3a4b0b 0%, #c8cb24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#image img {
+    display: inline-block;
+    height: 35rem;
+    width: 35rem;
+}
+
+#details {
+    width: auto;
+    position: absolute;
+    top: 34.5rem;
+    left: 35.7rem;
+}
+
+#details h2 {
+    display: inline-block;
+    font-family: monospace;
+    margin-right: 7px;
+    background: linear-gradient(to right, #b7ff00 0%, #28930a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
